@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans  # K-means algoritması
 
 # 1. Veri Yükleme ve Önışleme
 # Veriyi yükle ve bir kopyasını oluştur
-mainData = pd.read_csv("C:/Users/bltyc/Desktop/rfm/musteri.csv")
+mainData = pd.read_csv("C:/Users/bltyc/Desktop/rfm/e-commerce-dataset.csv")
 data = mainData.copy()
 # Her ürünün toplam fiyatını hesapla
 data["Total"] = data["Quantity"] * data["UnitPrice"]
